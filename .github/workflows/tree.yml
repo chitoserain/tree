@@ -1,4 +1,4 @@
-name: Daily Commit
+name: Tree
 
 on:
   schedule:
@@ -30,4 +30,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git push
+          git push origin main
